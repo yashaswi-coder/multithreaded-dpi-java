@@ -1,0 +1,70 @@
+2026-02-27 16:30:24 [INFO] Initializing Multithreaded DPI System...
+2026-02-27 16:30:24 [INFO] Rules loaded: 5 rules found.
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.2, Domain: github.com, Priority: MEDIUM | Perf: 1.471ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [HIGH] IP: 10.0.0.1, Domain: internal-service.gov, Priority: HIGH | Perf: 1.439ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.1, Domain: google.com, Priority: MEDIUM | Perf: 1.882ms
+2026-02-27 16:30:24 [WARNING] BLOCKED: [MEDIUM] IP: 192.168.1.100, Domain: malicous.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.860ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: weather.com, Priority: MEDIUM | Perf: 0.008ms
+2026-02-27 16:30:24 [WARNING] BLOCKED: [MEDIUM] IP: 192.168.1.5, Domain: malicious.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.019ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: news.com, Priority: MEDIUM | Perf: 0.013ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: social-media.com, Priority: MEDIUM | Perf: 0.013ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: blog.com, Priority: MEDIUM | Perf: 0.014ms
+2026-02-27 16:30:24 [WARNING] BLOCKED: [MEDIUM] IP: 172.16.0.5, Domain: and-this-too.com, Priority: MEDIUM | Reason: Rate Limit Exceeded | Perf: 0.006ms
+2026-02-27 16:30:24 [WARNING] BLOCKED: [MEDIUM] IP: 172.16.0.5, Domain: block-me-now.com, Priority: MEDIUM | Reason: Rate Limit Exceeded | Perf: 0.022ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: shop.com, Priority: MEDIUM | Perf: 0.008ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.10, Domain: stackoverflow.com, Priority: MEDIUM | Perf: 0.012ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.20, Domain: chase.com, Priority: MEDIUM | Perf: 0.013ms
+2026-02-27 16:30:24 [INFO] FORWARDED: [HIGH] IP: 192.168.1.15, Domain: example.edu, Priority: HIGH | Perf: 0.008ms
+2026-02-27 16:30:24 [WARNING] BLOCKED: [MEDIUM] IP: 10.0.0.50, Domain: any-site.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.011ms
+2026-02-27 16:30:24 [INFO] Processing complete. Generating reports...
+2026-02-27 16:30:24 [INFO] Statistics exported to stats.json
+2026-02-27 16:30:24 [INFO] DPI System Shutdown Successfully.
+2026-02-27 17:49:53 [INFO] Initializing Multithreaded DPI System...
+2026-02-27 17:49:53 [INFO] Configuration: [Rules: rules.txt, Packets: packets.txt]
+2026-02-27 17:49:53 [INFO] Rules loaded: 5 rules found.
+2026-02-27 17:49:53 [INFO] Starting packet inspection pipeline...
+2026-02-27 17:49:53 [INFO] FORWARDED: [HIGH] IP: 10.0.0.1, Domain: internal-service.gov, Priority: HIGH | Perf: 1.033ms
+2026-02-27 17:49:53 [WARNING] BLOCKED: [MEDIUM] IP: 192.168.1.100, Domain: malicous.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.629ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.1, Domain: google.com, Priority: MEDIUM | Perf: 1.186ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.2, Domain: github.com, Priority: MEDIUM | Perf: 1.011ms
+2026-02-27 17:49:53 [WARNING] BLOCKED: [MEDIUM] IP: 192.168.1.5, Domain: malicious.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.009ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: news.com, Priority: MEDIUM | Perf: 0.011ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: social-media.com, Priority: MEDIUM | Perf: 0.006ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: weather.com, Priority: MEDIUM | Perf: 0.010ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: blog.com, Priority: MEDIUM | Perf: 0.010ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: shop.com, Priority: MEDIUM | Perf: 0.010ms
+2026-02-27 17:49:53 [WARNING] BLOCKED: [MEDIUM] IP: 172.16.0.5, Domain: block-me-now.com, Priority: MEDIUM | Reason: Rate Limit Exceeded | Perf: 0.021ms
+2026-02-27 17:49:53 [WARNING] BLOCKED: [MEDIUM] IP: 172.16.0.5, Domain: and-this-too.com, Priority: MEDIUM | Reason: Rate Limit Exceeded | Perf: 0.009ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.10, Domain: stackoverflow.com, Priority: MEDIUM | Perf: 0.008ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.20, Domain: chase.com, Priority: MEDIUM | Perf: 0.024ms
+2026-02-27 17:49:53 [WARNING] BLOCKED: [MEDIUM] IP: 10.0.0.50, Domain: any-site.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.007ms
+2026-02-27 17:49:53 [INFO] FORWARDED: [HIGH] IP: 192.168.1.15, Domain: example.edu, Priority: HIGH | Perf: 0.011ms
+2026-02-27 17:49:53 [INFO] Processing complete. Generating reports...
+2026-02-27 17:49:53 [INFO] Statistics exported to stats.json
+2026-02-27 17:49:53 [INFO] DPI System Shutdown Successfully.
+2026-02-27 17:52:36 [INFO] Initializing Multithreaded DPI System...
+2026-02-27 17:52:36 [INFO] Configuration: [Rules: ../rules.txt, Packets: ../packets.txt]
+2026-02-27 17:52:36 [SEVERE] Failed to load security rules: ..\rules.txt (The system cannot find the file specified)
+2026-02-27 17:54:48 [INFO] Initializing Multithreaded DPI System...
+2026-02-27 17:54:48 [INFO] Configuration: [Rules: ../rules.txt, Packets: ../packets.txt]
+2026-02-27 17:54:48 [INFO] Rules loaded: 5 rules found.
+2026-02-27 17:54:48 [INFO] Starting packet inspection pipeline...
+2026-02-27 17:54:48 [WARNING] BLOCKED: [MEDIUM] IP: 192.168.1.100, Domain: malicous.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 1.130ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [HIGH] IP: 10.0.0.1, Domain: internal-service.gov, Priority: HIGH | Perf: 1.999ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.2, Domain: github.com, Priority: MEDIUM | Perf: 2.013ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.1, Domain: google.com, Priority: MEDIUM | Perf: 2.031ms
+2026-02-27 17:54:48 [WARNING] BLOCKED: [MEDIUM] IP: 192.168.1.5, Domain: malicious.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.012ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: news.com, Priority: MEDIUM | Perf: 0.011ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: weather.com, Priority: MEDIUM | Perf: 0.015ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: social-media.com, Priority: MEDIUM | Perf: 0.014ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: blog.com, Priority: MEDIUM | Perf: 0.013ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 172.16.0.5, Domain: shop.com, Priority: MEDIUM | Perf: 0.012ms
+2026-02-27 17:54:48 [WARNING] BLOCKED: [MEDIUM] IP: 172.16.0.5, Domain: block-me-now.com, Priority: MEDIUM | Reason: Rate Limit Exceeded | Perf: 0.033ms
+2026-02-27 17:54:48 [WARNING] BLOCKED: [MEDIUM] IP: 172.16.0.5, Domain: and-this-too.com, Priority: MEDIUM | Reason: Rate Limit Exceeded | Perf: 0.011ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.10, Domain: stackoverflow.com, Priority: MEDIUM | Perf: 0.012ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [MEDIUM] IP: 192.168.1.20, Domain: chase.com, Priority: MEDIUM | Perf: 0.012ms
+2026-02-27 17:54:48 [WARNING] BLOCKED: [MEDIUM] IP: 10.0.0.50, Domain: any-site.com, Priority: MEDIUM | Reason: Security Rule Match | Perf: 0.009ms
+2026-02-27 17:54:48 [INFO] FORWARDED: [HIGH] IP: 192.168.1.15, Domain: example.edu, Priority: HIGH | Perf: 0.009ms
+2026-02-27 17:54:48 [INFO] Processing complete. Generating reports...
+2026-02-27 17:54:48 [INFO] Statistics exported to stats.json
+2026-02-27 17:54:48 [INFO] DPI System Shutdown Successfully.

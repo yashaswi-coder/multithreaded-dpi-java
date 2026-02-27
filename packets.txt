@@ -1,0 +1,21 @@
+# Packet Data Configuration
+# Format: <source_ip>, <domain>
+
+192.168.1.1, google.com
+192.168.1.2, github.com
+192.168.1.100, malicous.com
+10.0.0.1, internal-service.gov
+192.168.1.5, malicious.com
+# The following should trigger rate limiting (IP: 172.16.0.5)
+172.16.0.5, news.com
+172.16.0.5, weather.com
+172.16.0.5, social-media.com
+172.16.0.5, blog.com
+172.16.0.5, shop.com
+172.16.0.5, block-me-now.com
+172.16.0.5, and-this-too.com
+# Random traffic
+192.168.1.10, stackoverflow.com
+192.168.1.20, chase.com
+10.0.0.50, any-site.com
+192.168.1.15, example.edu

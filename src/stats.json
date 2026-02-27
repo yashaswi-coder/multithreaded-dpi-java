@@ -1,0 +1,21 @@
+{
+  "timestamp": 1772195088473,
+  "total_packets": 16,
+  "dropped_packets": 5,
+  "forwarded_packets": 11,
+  "domain_traffic": {
+    "shop.com": 1,
+    "stackoverflow.com": 1,
+    "chase.com": 1,
+    "google.com": 1,
+    "example.edu": 1,
+    "news.com": 1,
+    "social-media.com": 1,
+    "github.com": 1,
+    "weather.com": 1,
+    "blog.com": 1,
+    "internal-service.gov": 1
+  },
+  "suspicious_ips": [
+  ]
+}

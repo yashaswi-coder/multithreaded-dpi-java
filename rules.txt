@@ -1,0 +1,8 @@
+# Security Rules Configuration
+# Format: BLOCK_IP <ip> OR BLOCK_DOMAIN <domain>
+
+BLOCK_IP 192.168.1.100
+BLOCK_IP 10.0.0.50
+BLOCK_DOMAIN malicious.com
+BLOCK_DOMAIN tracker.io
+BLOCK_DOMAIN ads-provider.net
